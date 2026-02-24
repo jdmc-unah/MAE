@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|c:\\users\\dell\\onedrive\\desktop\\sistema mae\\frontend\\sistemagestionacademica\\sistemagestionacademica\\sistemagestionacademica\\formularios\\portada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|solutionrelative:sistemagestionacademica\\formularios\\portada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\sistemagestionacademica\\sistemagestionacademica\\sistemagestionacademica\\formularios\\reportenotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|solutionrelative:sistemagestionacademica\\formularios\\reportenotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\sistemagestionacademica\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|solutionrelative:sistemagestionacademica\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\sistemagestionacademica\\sistemagestionacademica\\sistemagestionacademica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|solutionrelative:sistemagestionacademica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\sistemagestionacademica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|solutionrelative:sistemagestionacademica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\sistemagestionacademica\\formularios\\gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\sistemagestionacademica\\formularios\\gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|solutionrelative:sistemagestionacademica\\formularios\\gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\sistemagestionacademica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D30E88A2-6F96-9081-31FC-AB885EF39F3D}|SistemaGestionAcademica\\SistemaGestionAcademica.csproj|solutionrelative:sistemagestionacademica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,48 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Portada.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\Portada.cs",
-              "RelativeDocumentMoniker": "SistemaGestionAcademica\\Formularios\\Portada.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\Portada.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaGestionAcademica\\Formularios\\Portada.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Principal.cs",
+              "RelativeDocumentMoniker": "SistemaGestionAcademica\\Principal.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Principal.cs",
+              "RelativeToolTip": "SistemaGestionAcademica\\Principal.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIA3wCkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T23:45:47.869Z",
+              "WhenOpened": "2026-02-24T04:35:30.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReporteNotas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\ReporteNotas.cs",
+              "RelativeDocumentMoniker": "SistemaGestionAcademica\\Formularios\\ReporteNotas.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\ReporteNotas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaGestionAcademica\\Formularios\\ReporteNotas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:11:10.133Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\Login.cs",
-              "RelativeDocumentMoniker": "SistemaGestionAcademica\\Formularios\\Login.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema de Gesti\u00F3n Acad\u00E9mica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Sistema de Gesti\u00F3n Acad\u00E9mica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\Login.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "GestionUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs",
+              "RelativeDocumentMoniker": "SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T17:11:15.542Z"
+              "WhenOpened": "2026-02-18T20:50:38.857Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GestionUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs",
-              "RelativeDocumentMoniker": "SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema de Gesti\u00F3n Acad\u00E9mica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Sistema de Gesti\u00F3n Acad\u00E9mica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Formularios\\GestionUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T20:50:38.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Principal.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Principal.cs",
               "RelativeDocumentMoniker": "SistemaGestionAcademica\\Principal.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\Sistema de Gesti\u00F3n Acad\u00E9mica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Principal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Sistema de Gesti\u00F3n Acad\u00E9mica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Principal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\SistemaGestionAcademica\\SistemaGestionAcademica\\SistemaGestionAcademica\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaGestionAcademica\\Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T22:47:00.88Z"
+              "WhenOpened": "2026-02-12T22:47:00.88Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

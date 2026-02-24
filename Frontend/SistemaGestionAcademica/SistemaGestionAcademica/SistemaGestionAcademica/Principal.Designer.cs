@@ -131,6 +131,7 @@
             reporteDeNotasToolStripMenuItem.Name = "reporteDeNotasToolStripMenuItem";
             reporteDeNotasToolStripMenuItem.Size = new Size(266, 22);
             reporteDeNotasToolStripMenuItem.Text = "Reporte de notas";
+            reporteDeNotasToolStripMenuItem.Click += reporteDeNotasToolStripMenuItem_Click;
             // 
             // reporteDeReunionesToolStripMenuItem
             // 

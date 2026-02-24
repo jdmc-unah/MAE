@@ -79,7 +79,7 @@
             lbNombre.AutoSize = true;
             lbNombre.BackColor = Color.White;
             lbNombre.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbNombre.Location = new Point(127, 213);
+            lbNombre.Location = new Point(127, 242);
             lbNombre.Name = "lbNombre";
             lbNombre.Size = new Size(109, 15);
             lbNombre.TabIndex = 2;
@@ -87,7 +87,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(242, 210);
+            txtNombre.Location = new Point(242, 239);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(218, 23);
             txtNombre.TabIndex = 3;
@@ -191,7 +191,7 @@
             lbIdentidad.AutoSize = true;
             lbIdentidad.BackColor = Color.White;
             lbIdentidad.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbIdentidad.Location = new Point(175, 242);
+            lbIdentidad.Location = new Point(175, 214);
             lbIdentidad.Name = "lbIdentidad";
             lbIdentidad.Size = new Size(61, 15);
             lbIdentidad.TabIndex = 15;
@@ -199,10 +199,10 @@
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.Location = new Point(242, 239);
+            maskedTextBox1.Location = new Point(242, 211);
             maskedTextBox1.Mask = "####-####-#####";
             maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(87, 23);
+            maskedTextBox1.Size = new Size(98, 23);
             maskedTextBox1.TabIndex = 16;
             // 
             // btAgregar
@@ -228,9 +228,9 @@
             // btBuscar
             // 
             btBuscar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btBuscar.Location = new Point(463, 210);
+            btBuscar.Location = new Point(346, 210);
             btBuscar.Name = "btBuscar";
-            btBuscar.Size = new Size(75, 23);
+            btBuscar.Size = new Size(90, 23);
             btBuscar.TabIndex = 19;
             btBuscar.Text = "Buscar";
             btBuscar.UseVisualStyleBackColor = true;

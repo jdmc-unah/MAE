@@ -35,5 +35,11 @@ namespace SistemaGestionAcademica
             Formularios.GestionUsuarios forma = new Formularios.GestionUsuarios();
             forma.Show();
         }
+
+        private void reporteDeNotasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.ReporteNotas forma = new Formularios.ReporteNotas();
+            forma.Show();
+        }
     }
 }
