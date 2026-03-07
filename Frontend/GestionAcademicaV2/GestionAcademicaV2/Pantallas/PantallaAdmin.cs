@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -63,9 +64,14 @@ namespace GestionAcademicaV2.Pantallas
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnMenu_Click_1(object sender, EventArgs e)
+        {
             if (menuExpandido)
             {
-                pnlMenu.Width = 50;
+                pnlMenu.Width = 60;
                 menuExpandido = false;
             }
             else
@@ -73,6 +79,11 @@ namespace GestionAcademicaV2.Pantallas
                 pnlMenu.Width = 220;
                 menuExpandido = true;
             }
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
