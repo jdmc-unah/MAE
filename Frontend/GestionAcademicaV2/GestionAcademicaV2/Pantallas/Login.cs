@@ -69,5 +69,20 @@ namespace GestionAcademicaV2.Pantallas
         {
 
         }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void passwordVisible_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
