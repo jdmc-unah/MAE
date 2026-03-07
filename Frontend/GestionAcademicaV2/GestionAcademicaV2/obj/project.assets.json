@@ -99,19 +99,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jcarl\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\GestionAcademicaV2.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\GestionAcademicaV2.csproj",
       "projectName": "GestionAcademicaV2",
-      "projectPath": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\GestionAcademicaV2.csproj",
-      "packagesPath": "C:\\Users\\jcarl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\GestionAcademicaV2.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jcarl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

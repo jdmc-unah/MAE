@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,14 +34,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\Form1.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\Form1.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\Form1.cs [Design]",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\Form1.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "PantallaAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
+              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs [Design]*",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T03:19:00.183Z",
+              "WhenOpened": "2026-03-07T03:24:09.032Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -63,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\Login.cs",
               "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\Login.cs",
@@ -84,18 +80,6 @@
               "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T01:15:59.878Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Form1.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Form1.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Form1.cs [Design]",
-              "RelativeToolTip": "GestionAcademicaV2\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T01:11:36.138Z",
               "EditorCaption": " [Design]"
             }
           ]
