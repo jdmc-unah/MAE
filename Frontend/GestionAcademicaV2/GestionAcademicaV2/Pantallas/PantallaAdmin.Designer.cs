@@ -341,6 +341,7 @@
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2Panel3.Size = new Size(1044, 681);
             guna2Panel3.TabIndex = 2;
+            guna2Panel3.Paint += guna2Panel3_Paint;
             // 
             // guna2Panel1
             // 
@@ -399,7 +400,6 @@
             Name = "PantallaAdmin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaAdmin";
-            WindowState = FormWindowState.Maximized;
             pnlMenu.ResumeLayout(false);
             pnlMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
