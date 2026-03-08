@@ -85,5 +85,10 @@ namespace GestionAcademicaV2.Pantallas
         {
 
         }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
