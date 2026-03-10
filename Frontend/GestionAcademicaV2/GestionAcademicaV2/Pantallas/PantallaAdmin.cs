@@ -1,4 +1,6 @@
-﻿using Guna.UI2.WinForms;
+﻿using GestionAcademicaV2.Pantallas.AdminVentanas;
+using GestionAcademicaV2.Pantallas.DocenteVentanas;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,6 +13,27 @@ namespace GestionAcademicaV2.Pantallas
 {
     public partial class PantallaAdmin : Form
     {
+        private Form formularioActivo = null;
+
+        private void AbrirFormularioEnPanel(Form formularioHijo)
+        {
+            if (formularioActivo != null)
+            {
+                formularioActivo.Close();
+            }
+
+            formularioActivo = formularioHijo;
+            formularioHijo.TopLevel = false;
+            formularioHijo.FormBorderStyle = FormBorderStyle.None;
+            formularioHijo.Dock = DockStyle.Fill;
+
+            PnlContenedorAdmin.Controls.Clear();
+            PnlContenedorAdmin.Controls.Add(formularioHijo);
+            PnlContenedorAdmin.Tag = formularioHijo;
+
+            formularioHijo.Show();
+            formularioHijo.BringToFront();
+        }
         private bool menuExpandido = true;
         public PantallaAdmin()
         {
@@ -24,7 +47,7 @@ namespace GestionAcademicaV2.Pantallas
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioEnPanel(new FrmGestionUsuarios (this));
         }
 
         private void btnDocentes_Click(object sender, EventArgs e)

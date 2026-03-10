@@ -1,50 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\docenteventanas\\frmboletaprebasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\docenteventanas\\frmboletaprebasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\gestionacademicav2\\gestionacademicav2\\pantallas\\adminventanas\\frmgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\adminventanas\\frmgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\docenteventanas\\frmseleccionboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\docenteventanas\\frmseleccionboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\docenteventanas\\frmboletaprebasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\docenteventanas\\frmboletaprebasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\docenteventanas\\frmseleccionboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\docenteventanas\\frmseleccionboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantallaadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantallaadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\jcarl\\source\\repos\\gestionacademicav2\\gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantallaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\gestionacademicav2\\gestionacademicav2\\pantallas\\adminventanas\\frmgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\adminventanas\\frmgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\gestionacademicav2\\gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\gestionacademicav2\\gestionacademicav2\\pantallas\\docenteventanas\\frmseleccionboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\docenteventanas\\frmseleccionboleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\pantalladocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\gestionacademicav2\\gestionacademicav2\\pantallas\\docenteventanas\\frmboletaprebasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\pantallas\\docenteventanas\\frmboletaprebasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|c:\\users\\dell\\onedrive\\desktop\\sistemagestionacademicamae\\mae\\frontend\\gestionacademicav2\\gestionacademicav2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2C0A6F-34AB-D4B8-DAD9-EA61D1DBC962}|GestionAcademicaV2\\GestionAcademicaV2.csproj|solutionrelative:gestionacademicav2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,141 +54,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmBoletaPrebasica.cs",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FrmGestionUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T02:11:12.595Z",
+              "WhenOpened": "2026-03-09T22:05:42.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmBoletaPrebasica.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs [Design]",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T02:10:39.579Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmSeleccionBoleta.cs",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T00:58:53.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmSeleccionBoleta.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs [Design]",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T00:48:54.388Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PantallaDocente.cs",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T00:24:19.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PantallaDocente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs [Design]",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T00:22:03.963Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PantallaAdmin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.Designer.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.Designer.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.Designer.cs",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.Designer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwv6wBAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T05:25:46.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PantallaAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs [Design]",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T05:25:46.761Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "PantallaAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
               "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
               "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwFAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T05:20:23.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmGestionUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\AdminVentanas\\FrmGestionUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:09:07.112Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PantallaAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaAdmin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T05:25:46.761Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PantallaDocente.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T00:24:19.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmSeleccionBoleta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmSeleccionBoleta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:07:55.03Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PantallaDocente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\PantallaDocente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\PantallaDocente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T00:22:03.963Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "FrmBoletaPrebasica.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
+              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\DocenteVentanas\\FrmBoletaPrebasica.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:07:50.134Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Program.cs",
               "RelativeDocumentMoniker": "GestionAcademicaV2\\Program.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\SistemaGestionAcademicaMAE\\MAE\\Frontend\\GestionAcademicaV2\\GestionAcademicaV2\\Program.cs",
               "RelativeToolTip": "GestionAcademicaV2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T01:28:55.447Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\Login.cs",
-              "RelativeDocumentMoniker": "GestionAcademicaV2\\Pantallas\\Login.cs",
-              "ToolTip": "C:\\Users\\jcarl\\source\\repos\\GestionAcademicaV2\\GestionAcademicaV2\\Pantallas\\Login.cs",
-              "RelativeToolTip": "GestionAcademicaV2\\Pantallas\\Login.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAewFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T01:16:19.825Z"
             }
           ]
         }

@@ -69,14 +69,14 @@
             btnDocentes = new Guna.UI2.WinForms.Guna2Button();
             btnUsuarios = new Guna.UI2.WinForms.Guna2Button();
             btnDashboard = new Guna.UI2.WinForms.Guna2Button();
-            guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            PnlContenedorAdmin = new Guna.UI2.WinForms.Guna2Panel();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             btnMenu = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).BeginInit();
-            guna2Panel3.SuspendLayout();
+            PnlContenedorAdmin.SuspendLayout();
             guna2Panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -191,6 +191,7 @@
             btnCalificaciones.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCalificaciones.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnCalificaciones.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCalificaciones.Enabled = false;
             btnCalificaciones.FillColor = SystemColors.HotTrack;
             btnCalificaciones.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnCalificaciones.ForeColor = Color.White;
@@ -211,6 +212,7 @@
             btnAsistencia.DisabledState.CustomBorderColor = Color.DarkGray;
             btnAsistencia.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnAsistencia.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnAsistencia.Enabled = false;
             btnAsistencia.FillColor = SystemColors.HotTrack;
             btnAsistencia.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnAsistencia.ForeColor = Color.White;
@@ -330,18 +332,18 @@
             btnDashboard.Text = "Dashboard";
             btnDashboard.Click += btnDashboard_Click;
             // 
-            // guna2Panel3
+            // PnlContenedorAdmin
             // 
-            guna2Panel3.BackgroundImageLayout = ImageLayout.Zoom;
-            guna2Panel3.Controls.Add(guna2Panel1);
-            guna2Panel3.CustomizableEdges = customizableEdges25;
-            guna2Panel3.Dock = DockStyle.Fill;
-            guna2Panel3.Location = new Point(220, 0);
-            guna2Panel3.Name = "guna2Panel3";
-            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            guna2Panel3.Size = new Size(1044, 681);
-            guna2Panel3.TabIndex = 2;
-            guna2Panel3.Paint += guna2Panel3_Paint;
+            PnlContenedorAdmin.BackgroundImageLayout = ImageLayout.Zoom;
+            PnlContenedorAdmin.Controls.Add(guna2Panel1);
+            PnlContenedorAdmin.CustomizableEdges = customizableEdges25;
+            PnlContenedorAdmin.Dock = DockStyle.Fill;
+            PnlContenedorAdmin.Location = new Point(220, 0);
+            PnlContenedorAdmin.Name = "PnlContenedorAdmin";
+            PnlContenedorAdmin.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            PnlContenedorAdmin.Size = new Size(1044, 681);
+            PnlContenedorAdmin.TabIndex = 2;
+            PnlContenedorAdmin.Paint += guna2Panel3_Paint;
             // 
             // guna2Panel1
             // 
@@ -395,8 +397,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1264, 681);
-            Controls.Add(guna2Panel3);
+            Controls.Add(PnlContenedorAdmin);
             Controls.Add(pnlMenu);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "PantallaAdmin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaAdmin";
@@ -404,14 +407,14 @@
             pnlMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).EndInit();
-            guna2Panel3.ResumeLayout(false);
+            PnlContenedorAdmin.ResumeLayout(false);
             guna2Panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
         private Guna.UI2.WinForms.Guna2Panel pnlMenu;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Panel PnlContenedorAdmin;
         private Guna.UI2.WinForms.Guna2Button btnDashboard;
         private Guna.UI2.WinForms.Guna2Button btnAsistencia;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
