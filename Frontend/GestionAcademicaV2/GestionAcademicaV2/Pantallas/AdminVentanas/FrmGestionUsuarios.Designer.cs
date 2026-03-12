@@ -69,10 +69,12 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             LbIdentidad = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtIdentidad = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btGuardar = new Guna.UI2.WinForms.Guna2Button();
             lbNombre = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtNombre = new Guna.UI2.WinForms.Guna2TextBox();
             lbRol = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -105,29 +107,31 @@
             txtLugarTrabajo = new Guna.UI2.WinForms.Guna2TextBox();
             lbParentesco = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtParentesco = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            btActualizar = new Guna.UI2.WinForms.Guna2Button();
+            btEliminar = new Guna.UI2.WinForms.Guna2Button();
+            btLimpiar = new Guna.UI2.WinForms.Guna2Button();
+            guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)dgvUsuarios).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             SuspendLayout();
             // 
             // guna2HtmlLabel1
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel1.Location = new Point(417, 14);
+            guna2HtmlLabel1.Font = new Font("Britannic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel1.Location = new Point(452, 36);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(198, 32);
+            guna2HtmlLabel1.Size = new Size(243, 32);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "Gestión de Usuarios";
             // 
             // LbIdentidad
             // 
             LbIdentidad.BackColor = Color.Transparent;
-            LbIdentidad.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LbIdentidad.Location = new Point(52, 70);
+            LbIdentidad.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LbIdentidad.Location = new Point(52, 120);
             LbIdentidad.Name = "LbIdentidad";
-            LbIdentidad.Size = new Size(57, 17);
+            LbIdentidad.Size = new Size(59, 17);
             LbIdentidad.TabIndex = 100;
             LbIdentidad.Text = "Identidad:";
             // 
@@ -144,41 +148,45 @@
             txtIdentidad.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtIdentidad.Font = new Font("Segoe UI", 9F);
             txtIdentidad.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtIdentidad.Location = new Point(114, 61);
+            txtIdentidad.Location = new Point(114, 111);
+            txtIdentidad.MaxLength = 13;
             txtIdentidad.Name = "txtIdentidad";
             txtIdentidad.PlaceholderText = "";
             txtIdentidad.SelectedText = "";
             txtIdentidad.ShadowDecoration.CustomizableEdges = customizableEdges2;
             txtIdentidad.Size = new Size(200, 36);
             txtIdentidad.TabIndex = 1;
+            txtIdentidad.TextAlign = HorizontalAlignment.Center;
+            txtIdentidad.TextChanged += txtIdentidad_TextChanged;
+            txtIdentidad.KeyPress += txtIdentidad_KeyPress;
             // 
-            // guna2Button1
+            // btGuardar
             // 
-            guna2Button1.BorderRadius = 15;
-            guna2Button1.BorderThickness = 2;
-            guna2Button1.CustomizableEdges = customizableEdges3;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = SystemColors.Highlight;
-            guna2Button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(52, 545);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button1.Size = new Size(207, 35);
-            guna2Button1.TabIndex = 3;
-            guna2Button1.Text = "Guardar";
-            guna2Button1.Click += guna2Button1_Click;
+            btGuardar.BorderRadius = 15;
+            btGuardar.BorderThickness = 2;
+            btGuardar.CustomizableEdges = customizableEdges3;
+            btGuardar.DisabledState.BorderColor = Color.DarkGray;
+            btGuardar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btGuardar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btGuardar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btGuardar.FillColor = SystemColors.Highlight;
+            btGuardar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btGuardar.ForeColor = Color.White;
+            btGuardar.Location = new Point(52, 545);
+            btGuardar.Name = "btGuardar";
+            btGuardar.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btGuardar.Size = new Size(207, 35);
+            btGuardar.TabIndex = 3;
+            btGuardar.Text = "Guardar";
+            btGuardar.Click += guna2Button1_Click;
             // 
             // lbNombre
             // 
             lbNombre.BackColor = Color.Transparent;
-            lbNombre.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbNombre.Location = new Point(320, 70);
+            lbNombre.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbNombre.Location = new Point(320, 120);
             lbNombre.Name = "lbNombre";
-            lbNombre.Size = new Size(50, 17);
+            lbNombre.Size = new Size(52, 17);
             lbNombre.TabIndex = 99;
             lbNombre.Text = "Nombre:";
             // 
@@ -195,21 +203,22 @@
             txtNombre.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtNombre.Font = new Font("Segoe UI", 9F);
             txtNombre.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNombre.Location = new Point(376, 61);
+            txtNombre.Location = new Point(376, 111);
             txtNombre.Name = "txtNombre";
             txtNombre.PlaceholderText = "";
             txtNombre.SelectedText = "";
             txtNombre.ShadowDecoration.CustomizableEdges = customizableEdges6;
             txtNombre.Size = new Size(345, 36);
             txtNombre.TabIndex = 2;
+            txtNombre.KeyPress += txtNombre_KeyPress;
             // 
             // lbRol
             // 
             lbRol.BackColor = Color.Transparent;
-            lbRol.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbRol.Location = new Point(727, 70);
+            lbRol.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbRol.Location = new Point(727, 120);
             lbRol.Name = "lbRol";
-            lbRol.Size = new Size(23, 17);
+            lbRol.Size = new Size(24, 17);
             lbRol.TabIndex = 98;
             lbRol.Text = "Rol:";
             // 
@@ -227,7 +236,7 @@
             cbbRol.ForeColor = Color.FromArgb(68, 88, 112);
             cbbRol.ItemHeight = 30;
             cbbRol.Items.AddRange(new object[] { "Administrador", "Docente", "Tutor" });
-            cbbRol.Location = new Point(756, 61);
+            cbbRol.Location = new Point(756, 111);
             cbbRol.Name = "cbbRol";
             cbbRol.ShadowDecoration.CustomizableEdges = customizableEdges8;
             cbbRol.Size = new Size(207, 36);
@@ -242,7 +251,7 @@
             dgvUsuarios.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(33, 150, 242);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
             dataGridViewCellStyle2.ForeColor = Color.White;
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
@@ -260,10 +269,10 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dgvUsuarios.DefaultCellStyle = dataGridViewCellStyle3;
             dgvUsuarios.GridColor = Color.FromArgb(187, 222, 251);
-            dgvUsuarios.Location = new Point(52, 237);
+            dgvUsuarios.Location = new Point(52, 288);
             dgvUsuarios.Name = "dgvUsuarios";
             dgvUsuarios.RowHeadersVisible = false;
-            dgvUsuarios.Size = new Size(911, 292);
+            dgvUsuarios.Size = new Size(911, 241);
             dgvUsuarios.TabIndex = 16;
             dgvUsuarios.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Blue;
             dgvUsuarios.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(189, 223, 251);
@@ -306,10 +315,10 @@
             // lbSexo
             // 
             lbSexo.BackColor = Color.Transparent;
-            lbSexo.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbSexo.Location = new Point(52, 155);
+            lbSexo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbSexo.Location = new Point(52, 205);
             lbSexo.Name = "lbSexo";
-            lbSexo.Size = new Size(32, 17);
+            lbSexo.Size = new Size(34, 17);
             lbSexo.TabIndex = 94;
             lbSexo.Text = "Sexo:";
             lbSexo.Visible = false;
@@ -328,7 +337,7 @@
             cbbSexo.ForeColor = Color.FromArgb(68, 88, 112);
             cbbSexo.ItemHeight = 30;
             cbbSexo.Items.AddRange(new object[] { "Masculino", "Femenino", "No Binario" });
-            cbbSexo.Location = new Point(89, 145);
+            cbbSexo.Location = new Point(89, 195);
             cbbSexo.Name = "cbbSexo";
             cbbSexo.ShadowDecoration.CustomizableEdges = customizableEdges10;
             cbbSexo.Size = new Size(140, 36);
@@ -338,10 +347,10 @@
             // lbDireccion
             // 
             lbDireccion.BackColor = Color.Transparent;
-            lbDireccion.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbDireccion.Location = new Point(235, 155);
+            lbDireccion.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbDireccion.Location = new Point(235, 205);
             lbDireccion.Name = "lbDireccion";
-            lbDireccion.Size = new Size(57, 17);
+            lbDireccion.Size = new Size(59, 17);
             lbDireccion.TabIndex = 92;
             lbDireccion.Text = "Dirección:";
             lbDireccion.Visible = false;
@@ -359,7 +368,7 @@
             txtDireccion.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtDireccion.Font = new Font("Segoe UI", 9F);
             txtDireccion.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtDireccion.Location = new Point(298, 145);
+            txtDireccion.Location = new Point(298, 195);
             txtDireccion.Name = "txtDireccion";
             txtDireccion.PlaceholderText = "";
             txtDireccion.SelectedText = "";
@@ -371,10 +380,10 @@
             // lbTelefono
             // 
             lbTelefono.BackColor = Color.Transparent;
-            lbTelefono.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbTelefono.Location = new Point(727, 155);
+            lbTelefono.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbTelefono.Location = new Point(727, 205);
             lbTelefono.Name = "lbTelefono";
-            lbTelefono.Size = new Size(53, 17);
+            lbTelefono.Size = new Size(56, 17);
             lbTelefono.TabIndex = 91;
             lbTelefono.Text = "Teléfono:";
             lbTelefono.Visible = false;
@@ -392,22 +401,26 @@
             txtTelefono.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtTelefono.Font = new Font("Segoe UI", 9F);
             txtTelefono.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtTelefono.Location = new Point(785, 145);
+            txtTelefono.Location = new Point(785, 195);
+            txtTelefono.MaxLength = 9;
             txtTelefono.Name = "txtTelefono";
             txtTelefono.PlaceholderText = "";
             txtTelefono.SelectedText = "";
             txtTelefono.ShadowDecoration.CustomizableEdges = customizableEdges14;
             txtTelefono.Size = new Size(178, 36);
             txtTelefono.TabIndex = 9;
+            txtTelefono.TextAlign = HorizontalAlignment.Center;
             txtTelefono.Visible = false;
+            txtTelefono.TextChanged += txtTelefono_TextChanged;
+            txtTelefono.KeyPress += txtTelefono_KeyPress;
             // 
             // lbFechaNacimiento
             // 
             lbFechaNacimiento.BackColor = Color.Transparent;
-            lbFechaNacimiento.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbFechaNacimiento.Location = new Point(52, 197);
+            lbFechaNacimiento.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbFechaNacimiento.Location = new Point(52, 247);
             lbFechaNacimiento.Name = "lbFechaNacimiento";
-            lbFechaNacimiento.Size = new Size(116, 17);
+            lbFechaNacimiento.Size = new Size(120, 17);
             lbFechaNacimiento.TabIndex = 90;
             lbFechaNacimiento.Text = "Fecha de nacimiento:";
             lbFechaNacimiento.Visible = false;
@@ -425,7 +438,7 @@
             txtEspecialidad.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtEspecialidad.Font = new Font("Segoe UI", 9F);
             txtEspecialidad.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtEspecialidad.Location = new Point(457, 187);
+            txtEspecialidad.Location = new Point(457, 237);
             txtEspecialidad.Name = "txtEspecialidad";
             txtEspecialidad.PlaceholderText = "";
             txtEspecialidad.SelectedText = "";
@@ -436,14 +449,14 @@
             // 
             // dtpFechaNacimiento
             // 
-            dtpFechaNacimiento.BorderRadius = 3;
+            dtpFechaNacimiento.BorderRadius = 10;
             dtpFechaNacimiento.BorderThickness = 1;
             dtpFechaNacimiento.Checked = true;
             dtpFechaNacimiento.CustomizableEdges = customizableEdges17;
             dtpFechaNacimiento.FillColor = Color.Silver;
-            dtpFechaNacimiento.Font = new Font("Segoe UI", 9F);
+            dtpFechaNacimiento.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             dtpFechaNacimiento.Format = DateTimePickerFormat.Short;
-            dtpFechaNacimiento.Location = new Point(174, 187);
+            dtpFechaNacimiento.Location = new Point(174, 237);
             dtpFechaNacimiento.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpFechaNacimiento.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpFechaNacimiento.Name = "dtpFechaNacimiento";
@@ -456,10 +469,10 @@
             // lbEspecialidad
             // 
             lbEspecialidad.BackColor = Color.Transparent;
-            lbEspecialidad.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbEspecialidad.Location = new Point(380, 197);
+            lbEspecialidad.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbEspecialidad.Location = new Point(380, 247);
             lbEspecialidad.Name = "lbEspecialidad";
-            lbEspecialidad.Size = new Size(71, 17);
+            lbEspecialidad.Size = new Size(72, 17);
             lbEspecialidad.TabIndex = 88;
             lbEspecialidad.Text = "Especialidad:";
             lbEspecialidad.Visible = false;
@@ -467,10 +480,10 @@
             // lbEstado
             // 
             lbEstado.BackColor = Color.Transparent;
-            lbEstado.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbEstado.Location = new Point(727, 197);
+            lbEstado.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbEstado.Location = new Point(727, 247);
             lbEstado.Name = "lbEstado";
-            lbEstado.Size = new Size(41, 17);
+            lbEstado.Size = new Size(42, 17);
             lbEstado.TabIndex = 87;
             lbEstado.Text = "Estado:";
             lbEstado.Visible = false;
@@ -489,7 +502,7 @@
             cbbEstado.ForeColor = Color.FromArgb(68, 88, 112);
             cbbEstado.ItemHeight = 30;
             cbbEstado.Items.AddRange(new object[] { "Activo", "Inactivo" });
-            cbbEstado.Location = new Point(785, 187);
+            cbbEstado.Location = new Point(785, 237);
             cbbEstado.Name = "cbbEstado";
             cbbEstado.ShadowDecoration.CustomizableEdges = customizableEdges20;
             cbbEstado.Size = new Size(178, 36);
@@ -499,8 +512,8 @@
             // lbPosicion
             // 
             lbPosicion.BackColor = Color.Transparent;
-            lbPosicion.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbPosicion.Location = new Point(380, 197);
+            lbPosicion.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbPosicion.Location = new Point(380, 247);
             lbPosicion.Name = "lbPosicion";
             lbPosicion.Size = new Size(51, 17);
             lbPosicion.TabIndex = 89;
@@ -520,7 +533,7 @@
             txtPosicion.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtPosicion.Font = new Font("Segoe UI", 9F);
             txtPosicion.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtPosicion.Location = new Point(437, 187);
+            txtPosicion.Location = new Point(437, 237);
             txtPosicion.Name = "txtPosicion";
             txtPosicion.PlaceholderText = "";
             txtPosicion.SelectedText = "";
@@ -532,10 +545,10 @@
             // lbUsuario
             // 
             lbUsuario.BackColor = Color.Transparent;
-            lbUsuario.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbUsuario.Location = new Point(52, 112);
+            lbUsuario.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbUsuario.Location = new Point(52, 162);
             lbUsuario.Name = "lbUsuario";
-            lbUsuario.Size = new Size(46, 17);
+            lbUsuario.Size = new Size(48, 17);
             lbUsuario.TabIndex = 97;
             lbUsuario.Text = "Usuario:";
             lbUsuario.Visible = false;
@@ -553,7 +566,7 @@
             txtUsuario.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtUsuario.Font = new Font("Segoe UI", 9F);
             txtUsuario.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtUsuario.Location = new Point(114, 103);
+            txtUsuario.Location = new Point(114, 153);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.PlaceholderText = "";
             txtUsuario.SelectedText = "";
@@ -565,10 +578,10 @@
             // lbContrasena
             // 
             lbContrasena.BackColor = Color.Transparent;
-            lbContrasena.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbContrasena.Location = new Point(320, 112);
+            lbContrasena.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbContrasena.Location = new Point(320, 162);
             lbContrasena.Name = "lbContrasena";
-            lbContrasena.Size = new Size(65, 17);
+            lbContrasena.Size = new Size(68, 17);
             lbContrasena.TabIndex = 96;
             lbContrasena.Text = "Contraseña:";
             lbContrasena.Visible = false;
@@ -586,7 +599,7 @@
             txtContrasena.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtContrasena.Font = new Font("Segoe UI", 9F);
             txtContrasena.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtContrasena.Location = new Point(392, 103);
+            txtContrasena.Location = new Point(392, 153);
             txtContrasena.Name = "txtContrasena";
             txtContrasena.PlaceholderText = "";
             txtContrasena.SelectedText = "";
@@ -608,7 +621,7 @@
             txtCorreo.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtCorreo.Font = new Font("Segoe UI", 9F);
             txtCorreo.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtCorreo.Location = new Point(731, 103);
+            txtCorreo.Location = new Point(731, 153);
             txtCorreo.Name = "txtCorreo";
             txtCorreo.PlaceholderText = "";
             txtCorreo.SelectedText = "";
@@ -620,10 +633,10 @@
             // lbCorreo
             // 
             lbCorreo.BackColor = Color.Transparent;
-            lbCorreo.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbCorreo.Location = new Point(621, 112);
+            lbCorreo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbCorreo.Location = new Point(621, 162);
             lbCorreo.Name = "lbCorreo";
-            lbCorreo.Size = new Size(103, 17);
+            lbCorreo.Size = new Size(109, 17);
             lbCorreo.TabIndex = 95;
             lbCorreo.Text = "Correo Electrónico:";
             lbCorreo.Visible = false;
@@ -631,10 +644,10 @@
             // lbLugarTrabajo
             // 
             lbLugarTrabajo.BackColor = Color.Transparent;
-            lbLugarTrabajo.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbLugarTrabajo.Location = new Point(294, 155);
+            lbLugarTrabajo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbLugarTrabajo.Location = new Point(294, 205);
             lbLugarTrabajo.Name = "lbLugarTrabajo";
-            lbLugarTrabajo.Size = new Size(92, 17);
+            lbLugarTrabajo.Size = new Size(96, 17);
             lbLugarTrabajo.TabIndex = 92;
             lbLugarTrabajo.Text = "Lugar de trabajo:";
             lbLugarTrabajo.Visible = false;
@@ -652,7 +665,7 @@
             txtLugarTrabajo.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtLugarTrabajo.Font = new Font("Segoe UI", 9F);
             txtLugarTrabajo.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtLugarTrabajo.Location = new Point(392, 145);
+            txtLugarTrabajo.Location = new Point(392, 195);
             txtLugarTrabajo.Name = "txtLugarTrabajo";
             txtLugarTrabajo.PlaceholderText = "";
             txtLugarTrabajo.SelectedText = "";
@@ -664,12 +677,14 @@
             // lbParentesco
             // 
             lbParentesco.BackColor = Color.Transparent;
-            lbParentesco.Location = new Point(52, 155);
+            lbParentesco.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lbParentesco.Location = new Point(52, 205);
             lbParentesco.Name = "lbParentesco";
-            lbParentesco.Size = new Size(64, 17);
+            lbParentesco.Size = new Size(68, 17);
             lbParentesco.TabIndex = 93;
             lbParentesco.Text = "Parentesco:";
             lbParentesco.Visible = false;
+            lbParentesco.Click += lbParentesco_Click;
             // 
             // txtParentesco
             // 
@@ -684,7 +699,7 @@
             txtParentesco.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtParentesco.Font = new Font("Segoe UI", 9F);
             txtParentesco.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtParentesco.Location = new Point(122, 145);
+            txtParentesco.Location = new Point(122, 195);
             txtParentesco.Name = "txtParentesco";
             txtParentesco.PlaceholderText = "";
             txtParentesco.SelectedText = "";
@@ -693,71 +708,88 @@
             txtParentesco.TabIndex = 14;
             txtParentesco.Visible = false;
             // 
-            // guna2Button2
+            // btActualizar
             // 
-            guna2Button2.BorderRadius = 15;
-            guna2Button2.BorderThickness = 2;
-            guna2Button2.CustomizableEdges = customizableEdges33;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.FromArgb(0, 192, 0);
-            guna2Button2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(320, 545);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            guna2Button2.Size = new Size(180, 35);
-            guna2Button2.TabIndex = 101;
-            guna2Button2.Text = "Actualizar";
+            btActualizar.BorderRadius = 15;
+            btActualizar.BorderThickness = 2;
+            btActualizar.CustomizableEdges = customizableEdges33;
+            btActualizar.DisabledState.BorderColor = Color.DarkGray;
+            btActualizar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btActualizar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btActualizar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btActualizar.FillColor = Color.FromArgb(0, 192, 0);
+            btActualizar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btActualizar.ForeColor = Color.White;
+            btActualizar.Location = new Point(320, 545);
+            btActualizar.Name = "btActualizar";
+            btActualizar.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            btActualizar.Size = new Size(180, 35);
+            btActualizar.TabIndex = 101;
+            btActualizar.Text = "Actualizar";
+            btActualizar.Click += btActualizar_Click;
             // 
-            // guna2Button3
+            // btEliminar
             // 
-            guna2Button3.BorderRadius = 15;
-            guna2Button3.BorderThickness = 2;
-            guna2Button3.CustomizableEdges = customizableEdges35;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.Gold;
-            guna2Button3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button3.ForeColor = Color.White;
-            guna2Button3.Location = new Point(544, 545);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges36;
-            guna2Button3.Size = new Size(180, 35);
-            guna2Button3.TabIndex = 102;
-            guna2Button3.Text = "Eliminar";
+            btEliminar.BorderRadius = 15;
+            btEliminar.BorderThickness = 2;
+            btEliminar.CustomizableEdges = customizableEdges35;
+            btEliminar.DisabledState.BorderColor = Color.DarkGray;
+            btEliminar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btEliminar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btEliminar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btEliminar.FillColor = Color.Gold;
+            btEliminar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btEliminar.ForeColor = Color.White;
+            btEliminar.Location = new Point(544, 545);
+            btEliminar.Name = "btEliminar";
+            btEliminar.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            btEliminar.Size = new Size(180, 35);
+            btEliminar.TabIndex = 102;
+            btEliminar.Text = "Eliminar";
             // 
-            // guna2Button4
+            // btLimpiar
             // 
-            guna2Button4.BorderRadius = 15;
-            guna2Button4.BorderThickness = 2;
-            guna2Button4.CustomizableEdges = customizableEdges37;
-            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button4.FillColor = Color.DimGray;
-            guna2Button4.Font = new Font("Segoe UI", 9F);
-            guna2Button4.ForeColor = Color.White;
-            guna2Button4.Location = new Point(783, 545);
-            guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            guna2Button4.Size = new Size(180, 35);
-            guna2Button4.TabIndex = 103;
-            guna2Button4.Text = "Limpiar";
+            btLimpiar.BorderRadius = 15;
+            btLimpiar.BorderThickness = 2;
+            btLimpiar.CustomizableEdges = customizableEdges37;
+            btLimpiar.DisabledState.BorderColor = Color.DarkGray;
+            btLimpiar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btLimpiar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btLimpiar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btLimpiar.FillColor = Color.DimGray;
+            btLimpiar.Font = new Font("Segoe UI", 9F);
+            btLimpiar.ForeColor = Color.White;
+            btLimpiar.Location = new Point(783, 545);
+            btLimpiar.Name = "btLimpiar";
+            btLimpiar.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            btLimpiar.Size = new Size(180, 35);
+            btLimpiar.TabIndex = 103;
+            btLimpiar.Text = "Limpiar";
+            btLimpiar.Click += btLimpiar_Click;
+            // 
+            // guna2PictureBox1
+            // 
+            guna2PictureBox1.CustomizableEdges = customizableEdges39;
+            guna2PictureBox1.Image = Properties.Resources._2;
+            guna2PictureBox1.ImageRotate = 0F;
+            guna2PictureBox1.Location = new Point(329, -2);
+            guna2PictureBox1.Name = "guna2PictureBox1";
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            guna2PictureBox1.Size = new Size(120, 116);
+            guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            guna2PictureBox1.TabIndex = 104;
+            guna2PictureBox1.TabStop = false;
             // 
             // FrmGestionUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1028, 607);
-            Controls.Add(guna2Button4);
-            Controls.Add(guna2Button3);
-            Controls.Add(guna2Button2);
+            Controls.Add(txtNombre);
+            Controls.Add(guna2PictureBox1);
+            Controls.Add(btLimpiar);
+            Controls.Add(btEliminar);
+            Controls.Add(btActualizar);
             Controls.Add(txtParentesco);
             Controls.Add(lbParentesco);
             Controls.Add(txtLugarTrabajo);
@@ -785,9 +817,8 @@
             Controls.Add(dgvUsuarios);
             Controls.Add(cbbRol);
             Controls.Add(lbRol);
-            Controls.Add(txtNombre);
             Controls.Add(lbNombre);
-            Controls.Add(guna2Button1);
+            Controls.Add(btGuardar);
             Controls.Add(txtIdentidad);
             Controls.Add(LbIdentidad);
             Controls.Add(guna2HtmlLabel1);
@@ -795,6 +826,7 @@
             Name = "FrmGestionUsuarios";
             Text = "FrmGestionUsuarios";
             ((System.ComponentModel.ISupportInitialize)dgvUsuarios).EndInit();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -804,7 +836,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel LbIdentidad;
         private Guna.UI2.WinForms.Guna2TextBox txtIdentidad;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btGuardar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbNombre;
         private Guna.UI2.WinForms.Guna2TextBox txtNombre;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbRol;
@@ -837,8 +869,9 @@
         private Guna.UI2.WinForms.Guna2TextBox txtLugarTrabajo;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbParentesco;
         private Guna.UI2.WinForms.Guna2TextBox txtParentesco;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button btActualizar;
+        private Guna.UI2.WinForms.Guna2Button btEliminar;
+        private Guna.UI2.WinForms.Guna2Button btLimpiar;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }

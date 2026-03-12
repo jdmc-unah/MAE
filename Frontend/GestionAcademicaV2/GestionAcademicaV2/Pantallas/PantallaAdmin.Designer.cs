@@ -334,7 +334,8 @@
             // 
             // PnlContenedorAdmin
             // 
-            PnlContenedorAdmin.BackgroundImageLayout = ImageLayout.Zoom;
+            PnlContenedorAdmin.BackgroundImage = (Image)resources.GetObject("PnlContenedorAdmin.BackgroundImage");
+            PnlContenedorAdmin.BackgroundImageLayout = ImageLayout.Stretch;
             PnlContenedorAdmin.Controls.Add(guna2Panel1);
             PnlContenedorAdmin.CustomizableEdges = customizableEdges25;
             PnlContenedorAdmin.Dock = DockStyle.Fill;
