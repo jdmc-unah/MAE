@@ -62,7 +62,7 @@ namespace GestionAcademicaV2.Pantallas
 
         private void btnMatricula_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioEnPanel(new FrmFichaMatricula(this));
         }
 
         private void btnAsistencia_Click(object sender, EventArgs e)

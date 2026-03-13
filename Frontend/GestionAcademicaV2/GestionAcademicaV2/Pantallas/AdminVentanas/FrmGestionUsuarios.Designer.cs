@@ -162,16 +162,16 @@
             // 
             // btGuardar
             // 
-            btGuardar.BorderRadius = 15;
-            btGuardar.BorderThickness = 2;
+            btGuardar.BorderRadius = 10;
+            btGuardar.BorderThickness = 1;
             btGuardar.CustomizableEdges = customizableEdges3;
             btGuardar.DisabledState.BorderColor = Color.DarkGray;
             btGuardar.DisabledState.CustomBorderColor = Color.DarkGray;
             btGuardar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btGuardar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btGuardar.FillColor = SystemColors.Highlight;
-            btGuardar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btGuardar.ForeColor = Color.White;
+            btGuardar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btGuardar.ForeColor = Color.Black;
             btGuardar.Location = new Point(52, 545);
             btGuardar.Name = "btGuardar";
             btGuardar.ShadowDecoration.CustomizableEdges = customizableEdges4;
@@ -710,16 +710,16 @@
             // 
             // btActualizar
             // 
-            btActualizar.BorderRadius = 15;
-            btActualizar.BorderThickness = 2;
+            btActualizar.BorderRadius = 10;
+            btActualizar.BorderThickness = 1;
             btActualizar.CustomizableEdges = customizableEdges33;
             btActualizar.DisabledState.BorderColor = Color.DarkGray;
             btActualizar.DisabledState.CustomBorderColor = Color.DarkGray;
             btActualizar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btActualizar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btActualizar.FillColor = Color.FromArgb(0, 192, 0);
-            btActualizar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btActualizar.ForeColor = Color.White;
+            btActualizar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btActualizar.ForeColor = Color.Black;
             btActualizar.Location = new Point(320, 545);
             btActualizar.Name = "btActualizar";
             btActualizar.ShadowDecoration.CustomizableEdges = customizableEdges34;
@@ -730,16 +730,16 @@
             // 
             // btEliminar
             // 
-            btEliminar.BorderRadius = 15;
-            btEliminar.BorderThickness = 2;
+            btEliminar.BorderRadius = 10;
+            btEliminar.BorderThickness = 1;
             btEliminar.CustomizableEdges = customizableEdges35;
             btEliminar.DisabledState.BorderColor = Color.DarkGray;
             btEliminar.DisabledState.CustomBorderColor = Color.DarkGray;
             btEliminar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btEliminar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btEliminar.FillColor = Color.Gold;
-            btEliminar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btEliminar.ForeColor = Color.White;
+            btEliminar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btEliminar.ForeColor = Color.Black;
             btEliminar.Location = new Point(544, 545);
             btEliminar.Name = "btEliminar";
             btEliminar.ShadowDecoration.CustomizableEdges = customizableEdges36;
@@ -749,16 +749,16 @@
             // 
             // btLimpiar
             // 
-            btLimpiar.BorderRadius = 15;
-            btLimpiar.BorderThickness = 2;
+            btLimpiar.BorderRadius = 10;
+            btLimpiar.BorderThickness = 1;
             btLimpiar.CustomizableEdges = customizableEdges37;
             btLimpiar.DisabledState.BorderColor = Color.DarkGray;
             btLimpiar.DisabledState.CustomBorderColor = Color.DarkGray;
             btLimpiar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btLimpiar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btLimpiar.FillColor = Color.DimGray;
-            btLimpiar.Font = new Font("Segoe UI", 9F);
-            btLimpiar.ForeColor = Color.White;
+            btLimpiar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btLimpiar.ForeColor = Color.Black;
             btLimpiar.Location = new Point(783, 545);
             btLimpiar.Name = "btLimpiar";
             btLimpiar.ShadowDecoration.CustomizableEdges = customizableEdges38;

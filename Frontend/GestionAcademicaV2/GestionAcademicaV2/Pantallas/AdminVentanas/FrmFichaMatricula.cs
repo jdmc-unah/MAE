@@ -10,9 +10,16 @@ namespace GestionAcademicaV2.Pantallas.AdminVentanas
 {
     public partial class FrmFichaMatricula : Form
     {
-        public FrmFichaMatricula()
+        private PantallaAdmin pantallaPrincipal;
+        public FrmFichaMatricula(PantallaAdmin principal)
         {
             InitializeComponent();
+            pantallaPrincipal = principal;
+        }
+
+        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
