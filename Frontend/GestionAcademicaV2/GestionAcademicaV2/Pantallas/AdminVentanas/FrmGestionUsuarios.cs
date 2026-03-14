@@ -30,6 +30,7 @@ namespace GestionAcademicaV2.Pantallas.AdminVentanas
         {
             if (cbbRol.SelectedIndex == 0)
             {
+                lbTituloUsuario.Text = "ADMINISTRADOR";
                 lbEspecialidad.Visible = false;
                 txtEspecialidad.Visible = false;
                 lbPosicion.Visible = true;
@@ -50,9 +51,14 @@ namespace GestionAcademicaV2.Pantallas.AdminVentanas
                 cbbEstado.Visible = true;
                 lbFechaNacimiento.Visible = true;
                 dtpFechaNacimiento.Visible = true;
+                lbParentesco.Visible = false;
+                txtParentesco.Visible = false;
+                lbLugarTrabajo.Visible = false;
+                txtLugarTrabajo.Visible = false;
             }
             else if (cbbRol.SelectedIndex == 1)
             {
+                lbTituloUsuario.Text = "DOCENTE";
                 lbEspecialidad.Visible = true;
                 txtEspecialidad.Visible = true;
                 lbPosicion.Visible = false;
@@ -73,9 +79,14 @@ namespace GestionAcademicaV2.Pantallas.AdminVentanas
                 cbbEstado.Visible = true;
                 lbFechaNacimiento.Visible = true;
                 dtpFechaNacimiento.Visible = true;
+                lbParentesco.Visible = false;
+                txtParentesco.Visible = false;
+                lbLugarTrabajo.Visible = false;
+                txtLugarTrabajo.Visible = false;
             }
             else if (cbbRol.SelectedIndex == 2)
             {
+                lbTituloUsuario.Text = "TUTOR";
                 lbUsuario.Visible = true;
                 txtUsuario.Visible = true;
                 lbContrasena.Visible = true;
